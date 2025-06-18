@@ -1,7 +1,7 @@
 # chatbot_backend.py
 
 import os
-import openai
+#import openai
 from openai import OpenAI
 from openai import RateLimitError, OpenAIError
 import streamlit as st
