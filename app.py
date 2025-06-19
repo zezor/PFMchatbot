@@ -3,7 +3,8 @@
 import streamlit as st
 from chatbot_backend import generate_response
 
-st.set_page_config(page_title="Finance Buddy", layout="centered")
+st.set_page_config(page_title="PFM_App", layout="centered")
+st.title("Finance Buddy", layout="centered")
 
 st.title("💰 Your Accounting & Finance Buddy")
 st.write("Ask me anything about budgeting, savings, investments, business finance...")
