@@ -1,13 +1,11 @@
 # chatbot_backend.py
 
-import os
-import openai
 from openai import OpenAI
 from openai import RateLimitError, OpenAIError
 import streamlit as st
 
 # Create a client instance
-client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+#client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Initialize OpenAI client using the API key from Streamlit secrets
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
